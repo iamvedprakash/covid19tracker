@@ -1,0 +1,111 @@
+
+.App {
+  text-align: center;
+}
+
+body{
+  background: url('./img/img_bg.jpg');
+  font-family: serif;
+}
+
+.header{
+  padding: 2px;
+  color: whitesmoke;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 900;
+  border-bottom: solid whitesmoke 3px;
+}
+
+.row{
+  float: left;
+  display: inline;;
+  width: 25%;
+  margin: 40px auto;
+  animation-duration: 3s;
+  animation-name: fadeIn;
+}
+
+.TotalDeaths{
+  padding: 20px;
+  text-align: center;
+  margin: 12px auto;
+  width: 60%;
+  background-color: rgb(83, 89, 92);
+  color: #fff;
+  border-radius: 30px;
+}
+.TotalDeaths:hover{
+  background-color: rgb(59, 62, 63);
+}
+
+.TotalRecovered{
+  padding: 20px;
+  text-align: center;
+  margin: 12px auto;
+  width: 60%;
+  background-color: rgb(37, 221, 62);
+  color: #fff;
+  border-radius: 30px;
+}
+.TotalRecovered:hover{
+  background-color: rgb(6, 175, 29);
+}
+
+.TotalActive{
+  padding: 20px;
+  text-align: center;
+  margin: 12px auto;
+  width: 60%;
+  background-color: rgb(48, 169, 224);
+  color: #fff;
+  border-radius: 30px;
+}
+.TotalActive:hover{
+  background-color: rgb(11, 125, 179);
+}
+
+.TotalConfirmed{
+  padding: 20px;
+  text-align: center;
+  margin: 12px auto;
+  width: 60%;
+  background-color: rgb(233, 31, 31);
+  color: #fff;
+  border-radius: 30px;
+}
+.TotalConfirmed:hover{
+  background-color: rgb(194, 4, 4);
+}
+
+.table1{
+  float: right;
+  width: 75%;
+  margin: 26px auto;
+  color: white;
+  border: solid whitesmoke 1px;
+  height: 593px;
+  overflow-y: scroll;
+  animation-duration: 3s;
+  animation-name: fadeIn;
+}
+
+table thead tr th{
+  padding: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+
+table tbody tr td{
+  padding: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
